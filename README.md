@@ -9,14 +9,14 @@ Give a summary description of Four design patterns that you choose from the foll
 
 > Do not add diagrams, and do not try to give a complete description of the patterns as found in the books. Rather think of how you would explain the essential ideas of these patterns in a few sentences to a colleague while drinking coffee.
 
-/****************************************************************************************************************************************************************
-*****************************************************************************************************************************************************************/
+/**************************************************************************************************************************************************************
+/
 
 Below mentioned are four design patterns that  I feel are most efficient Software design patterns:
 
 1. **Adapter Design pattern:**
-    > This pattern acts as a bridge between two incompatible interfaces.
-    > it involves an adapter class which establishes communication between two independent interfaces.
+    1. This pattern acts as a bridge between two incompatible interfaces.
+    2. it involves an adapter class which establishes communication between two independent interfaces.
     
     *Example:*
     Consider current code that is designed to provide weather conditions when a city name is entered.
@@ -25,16 +25,16 @@ Below mentioned are four design patterns that  I feel are most efficient Softwar
     existing implementationto acquire weather conditions output.
     
     *Advantages:*
-    > helps in making the code much structured, supports open close principle.
-    > addition of new adapter class without disturbing existing code. Hence, makes it much flexible.
+    1. helps in making the code much structured, supports open close principle.
+    2. addition of new adapter class without disturbing existing code. Hence, makes it much flexible.
     
     *Disadvantages:*
     > Could increase the complexity as new classes or interfaces are added evertime.
  
  2. **Builder Design Pattern:**
-    > Builder pattern is a creational design pattern. 
-    > This pattern enables the polymorphism. 
-    > Builder pattern builds a complex object using simple objects and using a step by step approach.
+    1. Builder pattern is a creational design pattern. 
+    2. This pattern enables the polymorphism. 
+    3. Builder pattern builds a complex object using simple objects and using a step by step approach.
     
     *Examples:*
     Let's consider a business case of fast-food restaurant where a typical meal could be a burger and a cold drink. Burger could be either a Veg Burger or
@@ -44,18 +44,18 @@ Below mentioned are four design patterns that  I feel are most efficient Softwar
     cold drink would be packed as bottle.
     
     *Advantage:*
-    > It improves modularity by separating the complex object creation from required object representation
-    > Easy to modify and maintain since the construction process is isolated
-    > Improves readability and testability
+    1. It improves modularity by separating the complex object creation from required object representation
+    2. Easy to modify and maintain since the construction process is isolated
+    3. Improves readability and testability
     
     *Disadvantage:*
     > Increase of classes to represent different forms of the same object would make performance overhead
     
  3. **Decorator Design Pattern**
-    > Decorator patterns allow a user to add new functionality to an existing object without altering its structure. So, there is no change to the original
+    1. Decorator patterns allow a user to add new functionality to an existing object without altering its structure. So, there is no change to the original
     class.
-    > The decorator design pattern is a structural pattern, which provides a wrapper to the existing class.
-    > Decorator design patterns create decorator classes, which wrap the original class and supply additional functionality by keeping the class methods’
+    2. The decorator design pattern is a structural pattern, which provides a wrapper to the existing class.
+    3. Decorator design patterns create decorator classes, which wrap the original class and supply additional functionality by keeping the class methods’
     signature unchanged.
     
     *Examples:*
@@ -65,18 +65,18 @@ Below mentioned are four design patterns that  I feel are most efficient Softwar
     this car and return the car with the Diesel engine.
     
     *Advantages:*
-    > high degree of flexibility
-    >  significantly improves the readability of the program code
+    1. high degree of flexibility
+    2.  significantly improves the readability of the program code
     
     *Disadvantages:*
-    > Using the pattern increases the complexity of the software.
-    > large number of decorator objects, for which a separate systematization is recommended to avoid similar overview problems when working with subclasses.
+    1. Using the pattern increases the complexity of the software.
+    2. large number of decorator objects, for which a separate systematization is recommended to avoid similar overview problems when working with subclasses.
     
 4. **Observer Design Pattern:**
-   > An observer design pattern is a behavioral design pattern where objects are represented as observers that wait for an event to trigger. When the new event
-     is triggered, the multiple observers catch these events.
-   > The event source (or object) attaches to the subject. Whenever the change is performed in the subject, it is notified by the observer. 
-   > It follows the one to many approaches between the objects so that one change in the subject will reflect in all of its dependents and be updated
+   1. An observer design pattern is a behavioral design pattern where objects are represented as observers that wait for an event to trigger. When the new 
+      eventis triggered, the multiple observers catch these events.
+   2. The event source (or object) attaches to the subject. Whenever the change is performed in the subject, it is notified by the observer. 
+   3. It follows the one to many approaches between the objects so that one change in the subject will reflect in all of its dependents and be updated
      automatically.
      
     *Example:*
@@ -86,13 +86,13 @@ Below mentioned are four design patterns that  I feel are most efficient Softwar
     interest.
 
    *Advantages:*
-   > It is quite flexible to set up the relationship at runtime between the objects.
-   > With the Open/Closed Principle's help, we can introduce the new subscriber class without making a change in the publisher's code.
-   > This method carefully describes the coupling existing between the objects and the observer.
+   1. It is quite flexible to set up the relationship at runtime between the objects.
+   2. With the Open/Closed Principle's help, we can introduce the new subscriber class without making a change in the publisher's code.
+   3. This method carefully describes the coupling existing between the objects and the observer.
 
     *Disadvantages:*
-    > The observer method has a risk to implement. If it is not implemented carefully, it will be the cause of large complexity code.
-    > The main disadvantage of the observer design pattern that subscribers are notified in random order.
+    1. The observer method has a risk to implement. If it is not implemented carefully, it will be the cause of large complexity code.
+    2. The main disadvantage of the observer design pattern that subscribers are notified in random order.
 
 
     
